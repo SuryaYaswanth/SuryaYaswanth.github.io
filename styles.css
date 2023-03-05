@@ -1,0 +1,280 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+.container{
+    width: 1200px;
+    margin:auto;
+}
+body{
+ background-color: #11156B;
+}
+.banner-wrapper{
+    display: flex;
+}
+
+#navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+    width: 93vw;
+    position: absolute;
+    top: 0px;
+  }
+  #navbar>div{
+    padding: 3vmin ;
+  }
+  #navbar>div>a{
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    padding-right: 10px;
+    
+  }
+  #navbar>div>a:hover{
+    color: #44D637
+  }
+  .banner-left img{
+    position: absolute;
+    width: 480px;
+    height: 300px;
+    right: 729px;
+    top: 152px;
+    z-index: -1;
+  }
+  .btn_contact {
+    border-color: #44D637;
+    color: #44D637;
+  }
+  
+  .btn_contact:hover {
+    border-color: #F60000;
+    color: #F60000;
+  }
+  
+  .btn_contact{
+        font-family: roboto;
+        border: 1px solid #44D637;
+        background-color: transparent;
+        color:#44D637;
+        margin-top:10px;
+        padding: 6px 10px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+  
+.banner-left{
+    flex-basis: 50%;
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+    color: white;
+    padding: 160px 0px 1px 185px;
+   
+
+}
+.banner-left h1{
+    margin: 27px 0px 0px 0px;
+}
+.banner-left h6{
+    margin-top: 0px;
+}
+.banner-left a{
+    width: 160px;
+    height: 35px;
+    background-color: #44D637;   
+}
+
+.banner-right{
+    flex-basis: 50%;
+    padding:100px ;
+    
+}
+.about-wrapper{
+   display: flex;
+   
+}
+.about_cen{
+
+}
+#header{
+    padding: 14px;
+}
+#banner{
+    height: 400px;
+}
+#name{
+    color:#44D637;
+   
+}
+#name:hover{
+    color: #F60000;
+}
+
+.about-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_cen{
+    padding:240px;
+}
+.about_cen{
+    border: 1px solid #F60000;
+    padding-top: 28px;
+    border-top-width: 2px;
+    margin-top: 200px;
+    padding-bottom: 28px;
+    border-bottom-width: 2px;
+   
+    margin-bottom: 40px;
+}
+.about_cen h6{
+    
+    color: white;
+    font-family: roboto;
+    font-size: 20px;
+    
+}
+.btn_resume{
+        border: 1px solid#44D637;
+        color: #44D637;
+        font-family: roboto;
+        margin-left: 112px;
+         margin-top: 10px;
+        padding: 8px 25px;
+        cursor: pointer;
+        background-color: transparent;
+      }
+      
+.btn_resume:hover {
+     border-color:  #F60000;
+     color: #F60000;  
+}
+#proff{
+    padding-left: 120px;
+    font-family: roboto;
+}
+
+.my-wrk-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    margin-right: 40px;
+}
+.box h3{
+    text-align: center;
+    color: white;
+}
+.box img{
+     width: 140px;
+     height: 111px;
+}
+
+ .btn_work{
+    align-items: center;
+ } 
+ 
+  .btn_work{
+        
+        border: 1px solid #44D637;
+        background-color: transparent;
+         text-align: center;
+         margin-left: 140px;
+         margin-bottom: 150px;
+        color:#fae102;
+        margin-top:10px;
+        padding: 6px 10px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      .btn_work:hover{
+           border-color: #F60000;
+           color: #f08903;
+      }
+#web{
+    color: #f08903;
+   
+}
+#dev{
+    color: #219BEE;
+    
+}
+#web:hover{
+    color: #44D637;
+}
+#dev:hover{
+    color: #F60000;
+}
+.certify{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div#certificate {
+    text-align: center;
+}
+div#certificate h2{
+    font-family: roboto;
+    color: white;
+    margin-bottom: 15px;
+}
+.crtfy{
+    border: 1px solid #F60000;
+    margin-bottom: 150px;
+    text-align: center;
+    width: 802px;
+    height: 86px;
+}
+.btn_con{
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    margin-top: 25px;
+    margin-right: 40px;
+    font-size: larger;
+}
+#Guvi{
+    color: #44D637;
+}
+#nptel{
+    color: #F60000;
+}
+#gl{
+    color: #219BEE;
+}
+#pan{
+    color: #F60000;
+}
+#sol{
+    color: #219BEE;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cnt{
+    color: #44D637;
+    font-family: roboto;
+}
+div#footer{
+    text-align: center;
+    
+}
+div#footer h2{
+    color: white;
+    margin-bottom:20px;
+    font-family: roboto;
+}
+.cnt{
+    margin-bottom: 140px;
+   
+    width: 800px;
+}
+.cnt img{
+    margin-right: 70px;
+}
