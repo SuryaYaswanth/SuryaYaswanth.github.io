@@ -43,11 +43,9 @@ body{
     right: 729px;
     top: 152px;
     z-index: -1;
+
   }
-  .btn_contact {
-    border-color: #44D637;
-    color: #44D637;
-  }
+ 
   
   .btn_contact:hover {
     border-color: #F60000;
@@ -58,8 +56,8 @@ body{
         font-family: roboto;
         border: 1px solid #44D637;
         background-color: transparent;
-        color:#44D637;
         margin-top:10px;
+        color: #44D637;
         padding: 6px 10px;
         font-size: 16px;
         cursor: pointer;
